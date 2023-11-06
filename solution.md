@@ -7,7 +7,7 @@
 
 > 1_由多个sprite组成的物体在重叠时会发生图层错误 , 如一个enemy由body和eye组成并通过`sprite renderer`的`sorting layer` 和 `order in layer` 设置 eye 在 body 上 ; 当两个enemy重叠时会出现两个body在下, 两个eye在上的情况 ;
 
-- 设置一个随机的 `gameobject.transform.position.z ` 
+- 设置一个随机的 `gameobject.transform.position.z ` // 无用
 
 ### 碰撞体相关
 > 2_敌人E和玩家P相互之间不产生碰撞但接触时玩家受伤 , E与E , P与P , EP与场景物体 之间会产生碰撞; 
